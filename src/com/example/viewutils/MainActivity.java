@@ -23,6 +23,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		ViewUtils.inject(this);
+		Log.d("MainActivity","fix a bug");
 	}
 
 	@OnClick({R.id.btn1,R.id.btn2})
